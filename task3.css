@@ -1,0 +1,40 @@
+body{
+    font-family: Arial;
+    background-color: #fff3e6;
+    text-align: center;
+}
+
+ol, ul{
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+ol{
+    background-color: #ffc107;
+}
+
+ul{
+    background-color: #28a745;
+    color: white;
+}
+
+li{
+    margin: 10px 0;
+    font-size: 18px;
+}
+@media (max-width: 768px){
+    ol, ul{
+        width: 90%;
+        padding: 15px;
+    }
+
+    li{
+        font-size: 16px;
+    }
+
+    h1{
+        font-size: 22px;
+    }
+}
